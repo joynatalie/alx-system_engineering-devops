@@ -1,1 +1,1 @@
-Working directory to home directory
+Display current dir contents in long format
