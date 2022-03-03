@@ -10,3 +10,4 @@ Sets permissions to the file hello
 Sets the modes of the file hello
 Sets the mode of the file hello the same as ollehs mode
 Adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
+Creates a directory called my_dir with permissions 751 in the working directory
