@@ -9,3 +9,4 @@ Adds execution permission to the owner, the group owner and the other users to t
 Sets permissions to the file hello
 Sets the modes of the file hello
 Sets the mode of the file hello the same as ollehs mode
+Adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
