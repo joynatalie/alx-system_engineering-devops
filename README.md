@@ -1,1 +1,1 @@
-This is a repo about shell basics
+Script that switches current user to betty
