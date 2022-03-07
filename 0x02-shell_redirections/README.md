@@ -11,3 +11,4 @@
 10. Deletes all regular files with a -js extension in the current directory.
 11. Counts the number of directories and subdirectories in current directory.
 12. Displays 10 newest files in the directory.
+13. Takes a list of words and prints words that appear only once.
