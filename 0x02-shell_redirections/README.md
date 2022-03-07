@@ -21,3 +21,4 @@
 20. Removes all the letters C and c from input.
 21. Reverse its input.
 22. Displays all users and home directories, sorted by users.
+23. Finds all empty files and directories in the current directory and subdirectories.
