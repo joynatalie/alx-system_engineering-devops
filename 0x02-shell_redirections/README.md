@@ -12,3 +12,4 @@
 11. Counts the number of directories and subdirectories in current directory.
 12. Displays 10 newest files in the directory.
 13. Takes a list of words and prints words that appear only once.
+14. Display lines displaying the pattern root from the file etc/passwd
