@@ -24,3 +24,4 @@
 23. Finds all empty files and directories in the current directory and subdirectories.
 24. Lists all files with a .gif extension in the directory and all subdirectories.
 25. Decodes acrostics that use the first letter of each line.
+26. Parses web server logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
