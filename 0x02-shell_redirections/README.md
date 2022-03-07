@@ -13,3 +13,4 @@
 12. Displays 10 newest files in the directory.
 13. Takes a list of words and prints words that appear only once.
 14. Display lines displaying the pattern root from the file etc/passwd
+15. Display the number of files that contain the pattern bin in the file etc/passwd.
