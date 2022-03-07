@@ -22,3 +22,4 @@
 21. Reverse its input.
 22. Displays all users and home directories, sorted by users.
 23. Finds all empty files and directories in the current directory and subdirectories.
+24. Lists all files with a .gif extension in the directory and all subdirectories.
