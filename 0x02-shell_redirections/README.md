@@ -4,3 +4,4 @@
 3. Display the contents of etc/passwd and etc/hosts.
 4. Display the laast ten lines of etc/passwd.
 5. Displays the first ten lines of etc/passwd.
+6. Displays the third line of the file iacta.
