@@ -20,3 +20,4 @@
 19. Replace all the characters A and c from input to Z and e repectively.
 20. Removes all the letters C and c from input.
 21. Reverse its input.
+22. Displays all users and home directories, sorted by users.
