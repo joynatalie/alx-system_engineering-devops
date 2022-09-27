@@ -1,14 +1,25 @@
 #!/usr/bin/env bash
-# Install nginx web server and basic setup
-sudo apt-get update -y
-sudo apt-get install nginx -y
-# Adjust the firewall
-# sudo ufw enable -y
-sudo ufw allow 'OpenSSH'
-sudo ufw allow 'Nginx HTTP'
-# Take backup of the original index
-sudo cp /var/www/html/index.nginx-debian.html /var/www/html/bkup_index.nginx-debian.html
-# Changing to sudo for update the file
-sudo su
-echo "Hello World!" > /var/www/html/index.nginx-debian.html
-sudo service nginx start
+# Installs Nginx with the following configurations:
+#+    Listens on port 80.
+#+    Returns a page containing "Holberton School" when queried
+#+    at the root with a curl GET request.
+
+sudo apt-get update
+sudo apt-get install -y nginx
+
+sudo mkdir /etc/nginx/html
+sudo touch /etc/nginx/html/index.html
+
+chmod 666 /etc/nginx/html/index.html
+echo "Hello World!" > /etc/nginx/html/index.html
+
+chmod 666 /etc/nginx/sites-available/default
+printf %s "server {
+     listen      80 default_server;
+     listen      [::]:80 default_server;
+     root        /etc/nginx/html;
+     index       index.html index.htm;
+}
+" > /etc/nginx/sites-available/default
+
+sudo service nginx restart
